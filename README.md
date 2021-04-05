@@ -1,18 +1,11 @@
-# vue-spa
+# open points
 
-> A Vue.js project
+if added bootstrap-vue all is down (axios , sass-loader are fly away and reinstall don't helps me :(
 
-## Build Setup
+## todo to finish
+Блок просмотра (правая нижняя панель). Служит для отображения информации как в сжатом табличном виде, так и в виде фрагментов текста новостей. Выбор строки таблицы приводит к фильтрации списка фрагментов текста (видимыми остаются только фрагменты, являющиеся подтверждением выбранной ситуации). Подтверждающий текст содержит логотип источника, дату публикации новости, заголовок новости, основной объект в выявленной ситуации, предложение с описанием ситуации. При выборе заголовка сообщения в списке фрагментов во всплывающем окне выдается текст сообщения.
+Пример готового приложения:
 
-``` bash
-# install dependencies
-npm install
+http://rco-demo.rco.ru/factExtractor/
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
